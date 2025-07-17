@@ -66,7 +66,7 @@ settings = get_settings()
 # CORS middleware - Updated for production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.allowed_origins if settings.environment == "production" else ["*"],
+    allow_origins=["*"] ,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
