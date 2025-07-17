@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+.env.production.local
+
+# Build outputs
+backend/data/chroma_db/
+frontend/build/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo

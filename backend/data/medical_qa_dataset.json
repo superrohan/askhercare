@@ -1,0 +1,142 @@
+[
+  {
+    "question": "What is a normal menstrual cycle length?",
+    "answer": "A normal menstrual cycle typically ranges from 21 to 35 days, with an average of 28 days. The menstrual period itself usually lasts 3-7 days. Cycles can vary from month to month and may change throughout your life due to factors like stress, weight changes, hormonal fluctuations, or underlying health conditions.",
+    "category": "menstruation",
+    "tags": ["periods", "cycle", "normal", "duration"],
+    "source": "gynecological_guidelines"
+  },
+  {
+    "question": "What are the early signs of pregnancy?",
+    "answer": "Early pregnancy signs include missed periods, nausea (morning sickness), breast tenderness and swelling, fatigue, frequent urination, food aversions or cravings, mood changes, light spotting (implantation bleeding), and elevated basal body temperature. However, these symptoms can vary greatly between individuals and some may not experience any early symptoms.",
+    "category": "pregnancy",
+    "tags": ["pregnancy", "symptoms", "early signs", "conception"],
+    "source": "obstetric_care_guidelines"
+  },
+  {
+    "question": "What is PCOS and what are its symptoms?",
+    "answer": "PCOS (Polycystic Ovary Syndrome) is a hormonal disorder affecting women of reproductive age. Common symptoms include irregular periods or no periods, excess androgen levels causing acne and hirsutism (excessive hair growth), polycystic ovaries visible on ultrasound, weight gain or difficulty losing weight, insulin resistance, and fertility issues. PCOS affects 5-10% of women of childbearing age.",
+    "category": "pcos",
+    "tags": ["PCOS", "hormonal", "symptoms", "ovaries", "androgens"],
+    "source": "endocrinology_textbook"
+  },
+  {
+    "question": "What birth control options are available?",
+    "answer": "Birth control options include hormonal methods (birth control pills, patches, rings, injections like Depo-Provera), barrier methods (condoms, diaphragms, cervical caps), intrauterine devices (hormonal IUDs like Mirena, copper IUD), implants (Nexplanon), emergency contraception (Plan B), and permanent methods (tubal ligation, vasectomy for partners). Each method has different effectiveness rates, side effects, and considerations.",
+    "category": "birth_control",
+    "tags": ["contraception", "birth control", "family planning", "hormonal", "barrier"],
+    "source": "contraceptive_guidelines"
+  },
+  {
+    "question": "What should I expect during my first gynecological exam?",
+    "answer": "Your first gynecological exam typically includes discussing your medical and sexual history, a physical exam checking vital signs and general health, and possibly a pelvic exam depending on your age, sexual activity, and symptoms. The doctor will explain each step, and you can ask questions or request to stop at any time. It's normal to feel nervous, and you can bring a support person if allowed.",
+    "category": "first_time_sex",
+    "tags": ["gynecological exam", "first time", "what to expect", "pelvic exam"],
+    "source": "patient_care_protocols"
+  },
+  {
+    "question": "How can I maintain good vaginal health?",
+    "answer": "Maintain vaginal health by practicing good hygiene (gentle washing with warm water and mild soap externally only), wearing breathable cotton underwear, avoiding douches and harsh soaps or scented products, staying hydrated, eating a balanced diet with probiotics, practicing safe sex, changing tampons/pads regularly, and avoiding tight-fitting clothes. See a healthcare provider for unusual discharge, odor, or discomfort.",
+    "category": "vaginal_health",
+    "tags": ["hygiene", "vaginal health", "prevention", "pH balance"],
+    "source": "gynecological_care_manual"
+  },
+  {
+    "question": "When should I be concerned about irregular periods?",
+    "answer": "Consult a healthcare provider if you experience periods lasting longer than 7 days, bleeding between periods, periods occurring more frequently than every 21 days or less frequently than every 35 days, extremely heavy bleeding (changing pad/tampon every hour), severe cramping that interferes with daily activities, or if you haven't had a period for 3+ months (and you're not pregnant or breastfeeding).",
+    "category": "menstruation",
+    "tags": ["irregular periods", "heavy bleeding", "missed periods", "concerning symptoms"],
+    "source": "menstrual_disorders_guide"
+  },
+  {
+    "question": "What is ovulation and how can I track it?",
+    "answer": "Ovulation is when your ovary releases an egg, typically occurring 12-14 days before your next period. Signs include changes in cervical mucus (clear, stretchy), slight increase in basal body temperature, mild pelvic pain (mittelschmerz), and increased libido. You can track ovulation using apps, ovulation predictor kits, basal body temperature charting, or monitoring cervical mucus changes.",
+    "category": "menstruation",
+    "tags": ["ovulation", "fertility", "tracking", "cervical mucus", "temperature"],
+    "source": "reproductive_health_textbook"
+  },
+  {
+    "question": "Is discharge normal and when should I worry?",
+    "answer": "Normal vaginal discharge varies throughout your cycle - it can be clear and stretchy around ovulation, or thicker and white at other times. Concerning signs include strong fishy or foul odor, unusual color (gray, green, or bright yellow), cottage cheese-like texture, burning or itching, or bleeding between periods. These may indicate infections requiring medical attention.",
+    "category": "vaginal_health",
+    "tags": ["vaginal discharge", "normal", "infection", "yeast infection", "BV"],
+    "source": "women_health_manual"
+  },
+  {
+    "question": "How do I know if I have a UTI?",
+    "answer": "UTI symptoms include burning sensation during urination, frequent urge to urinate with little output, cloudy or strong-smelling urine, pelvic pain, and sometimes fever or back pain. UTIs are more common in women due to shorter urethra. Drink plenty of water, urinate after sex, wipe front to back, and see a healthcare provider for proper diagnosis and antibiotics if needed.",
+    "category": "vaginal_health",
+    "tags": ["UTI", "urinary tract infection", "burning", "frequent urination"],
+    "source": "urological_care_guidelines"
+  },
+  {
+    "question": "What are the side effects of hormonal birth control?",
+    "answer": "Common side effects of hormonal birth control include nausea, breast tenderness, mood changes, weight fluctuation, irregular bleeding or spotting, headaches, and decreased libido. Serious but rare risks include blood clots, stroke, and heart attack (higher risk with smoking and age 35+). Most side effects improve after 2-3 months as your body adjusts.",
+    "category": "birth_control",
+    "tags": ["hormonal birth control", "side effects", "risks", "blood clots"],
+    "source": "contraceptive_safety_data"
+  },
+  {
+    "question": "How can I manage severe period cramps?",
+    "answer": "Manage period cramps with over-the-counter pain relievers (ibuprofen, naproxen), heat therapy (heating pad, warm bath), gentle exercise, staying hydrated, and getting adequate rest. Some find relief with magnesium supplements, yoga, or dietary changes. If cramps are severe enough to interfere with daily activities, consult a healthcare provider as this may indicate conditions like endometriosis.",
+    "category": "menstruation",
+    "tags": ["period cramps", "dysmenorrhea", "pain management", "endometriosis"],
+    "source": "pain_management_protocols"
+  },
+  {
+    "question": "What should I know about my first Pap smear?",
+    "answer": "Pap smears screen for cervical cancer and typically start at age 21 or when becoming sexually active (whichever is later). The procedure involves collecting cells from your cervix using a small brush or spatula. It may cause mild discomfort but shouldn't be painful. Schedule between periods, avoid douching or intercourse 24 hours before, and discuss any concerns with your provider.",
+    "category": "first_time_sex",
+    "tags": ["Pap smear", "cervical cancer screening", "first time", "what to expect"],
+    "source": "cancer_screening_guidelines"
+  },
+  {
+    "question": "How do I talk to my partner about safe sex?",
+    "answer": "Start conversations about safe sex in a non-sexual setting when you both feel comfortable. Discuss STI testing history, birth control preferences, boundaries, and consent. It's important to be honest about your experience level and ask questions. Remember that practicing safe sex shows care for both of your health and well-being. Consider getting tested together before becoming sexually active.",
+    "category": "first_time_sex",
+    "tags": ["safe sex", "communication", "STI testing", "consent", "relationships"],
+    "source": "sexual_health_education"
+  },
+  {
+    "question": "What is endometriosis and what are the symptoms?",
+    "answer": "Endometriosis occurs when tissue similar to the uterine lining grows outside the uterus. Symptoms include severe menstrual cramps, heavy periods, pelvic pain, pain during sex, painful bowel movements or urination during periods, and sometimes infertility. Pain may worsen over time. Diagnosis often requires laparoscopy, and treatment options include pain management, hormonal therapy, or surgery.",
+    "category": "menstruation",
+    "tags": ["endometriosis", "pelvic pain", "severe cramps", "chronic pain"],
+    "source": "gynecological_disorders_manual"
+  },
+  {
+    "question": "How do I choose the right tampon or pad?",
+    "answer": "Choose tampons/pads based on your flow (light, regular, heavy, super), comfort, and lifestyle. Start with regular absorbency and adjust as needed. Tampons offer more freedom for activities but require proper insertion and timely changing (every 4-8 hours). Pads are external and may be more comfortable initially. Menstrual cups and period underwear are eco-friendly alternatives to consider.",
+    "category": "menstruation",
+    "tags": ["tampons", "pads", "menstrual products", "flow", "comfort"],
+    "source": "menstrual_care_guide"
+  },
+  {
+    "question": "What happens during pregnancy testing?",
+    "answer": "Pregnancy tests detect hCG hormone in urine or blood. Home urine tests are most accurate when taken after a missed period, preferably with morning urine. Blood tests at a doctor's office can detect pregnancy earlier and are more sensitive. False negatives can occur if testing too early, while false positives are rare but can happen with certain medications or medical conditions.",
+    "category": "pregnancy",
+    "tags": ["pregnancy test", "hCG", "accuracy", "timing", "false results"],
+    "source": "pregnancy_detection_protocols"
+  },
+  {
+    "question": "How can I manage PCOS symptoms naturally?",
+    "answer": "Natural PCOS management includes maintaining a healthy weight through balanced diet and regular exercise, reducing refined carbohydrates and sugar intake, managing stress through yoga or meditation, getting adequate sleep, and considering supplements like inositol, vitamin D, or omega-3s (consult healthcare provider first). Some find spearmint tea helpful for reducing androgens. Regular monitoring by healthcare providers is important.",
+    "category": "pcos",
+    "tags": ["PCOS management", "natural remedies", "diet", "exercise", "supplements"],
+    "source": "integrative_gynecology_guide"
+  },
+  {
+    "question": "What are the warning signs during pregnancy?",
+    "answer": "Contact your healthcare provider immediately for severe abdominal pain, heavy bleeding, severe headaches, vision changes, persistent vomiting, fever over 101°F, decreased fetal movement (after 28 weeks), signs of preterm labor (regular contractions before 37 weeks), or severe swelling in face/hands. Trust your instincts - if something feels wrong, seek medical attention.",
+    "category": "pregnancy",
+    "tags": ["pregnancy warning signs", "complications", "emergency", "prenatal care"],
+    "source": "obstetric_emergency_protocols"
+  },
+  {
+    "question": "How do I prevent yeast infections?",
+    "answer": "Prevent yeast infections by keeping the genital area clean and dry, wearing cotton underwear, avoiding tight-fitting clothes, changing out of wet swimwear promptly, limiting antibiotic use when possible, avoiding douches and scented products, eating a balanced diet with probiotics, and managing diabetes if applicable. Some women are more prone to infections and may need ongoing prevention strategies.",
+    "category": "vaginal_health",
+    "tags": ["yeast infection", "prevention", "candida", "probiotics", "hygiene"],
+    "source": "infectious_disease_prevention"
+  }
+]
