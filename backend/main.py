@@ -64,9 +64,16 @@ app = FastAPI(
 settings = get_settings()
 
 # CORS middleware - Updated for production
+# In backend/main.py, update CORS to:
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"] ,
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:5173", 
+        "https://askhercare.vercel.app",
+        "https://*.vercel.app",
+        "https://askhercare-*.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
