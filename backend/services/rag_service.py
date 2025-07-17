@@ -34,36 +34,43 @@ class RAGService:
         try:
             # Load medical data first
             await self._load_medical_data()
-
+            
             # Try to initialize OpenAI if available
             if OPENAI_AVAILABLE:
                 api_key = os.getenv("OPENAI_API_KEY")
                 if api_key and api_key.strip():
                     try:
-                        self.client = AsyncOpenAI(api_key=api_key)
-                        self.use_ai = True
-                        logger.info(
-                            "OpenAI client initialized - using GPT-4o-mini for responses"
+                        # Fixed OpenAI client initialization
+                        self.client = AsyncOpenAI(
+                            api_key=api_key,
+                            timeout=30.0  # Remove any other parameters that might cause issues
                         )
+                        
+                        # Test the client with a simple call
+                        test_response = await self.client.chat.completions.create(
+                            model="gpt-4o-mini",
+                            messages=[{"role": "user", "content": "Hello"}],
+                            max_tokens=5
+                        )
+                        
+                        self.use_ai = True
+                        logger.info("OpenAI client initialized successfully - using GPT-4o-mini for responses")
+                        
                     except Exception as e:
-                        logger.warning(f"Failed to initialize OpenAI client: {e}")
+                        logger.warning(f"OpenAI client test failed: {e}")
+                        logger.info("Falling back to knowledge-based responses")
                         self.use_ai = False
                 else:
-                    logger.info(
-                        "OPENAI_API_KEY not found - using knowledge-based responses"
-                    )
+                    logger.info("OPENAI_API_KEY not found - using knowledge-based responses")
                     self.use_ai = False
             else:
-                logger.info(
-                    "OpenAI library not available - using knowledge-based responses"
-                )
+                logger.info("OpenAI library not available - using knowledge-based responses")
                 self.use_ai = False
-
+            
             self.initialized = True
-            logger.info(
-                f"RAG service initialized successfully (AI: {'enabled' if self.use_ai else 'disabled'})"
-            )
-
+            ai_status = "enabled" if self.use_ai else "disabled"
+            logger.info(f"RAG service initialized successfully (AI: {ai_status})")
+        
         except Exception as e:
             logger.error(f"Failed to initialize RAG service: {str(e)}")
             # Still mark as initialized so the service can work with fallback responses
