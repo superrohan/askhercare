@@ -20,6 +20,11 @@ from contextlib import asynccontextmanager
 # Import local modules
 from services.rag_service import RAGService
 from models.chat_models import ChatRequest, ChatResponse, SimplifyRequest
+from dotenv import load_dotenv
+load_dotenv(override=True)
+
+print(">>> .env OPENAI_API_KEY =", os.getenv("OPENAI_API_KEY")[:10])
+
 from config import get_settings
 
 # Configure logging
@@ -34,6 +39,8 @@ async def lifespan(app: FastAPI):
     # Startup
     global rag_service
     settings = get_settings()
+    print(">>> settings.openai_api_key =", settings.openai_api_key[:10])
+
     
     # Set OpenAI API key from environment
     if settings.openai_api_key:

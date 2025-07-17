@@ -7,136 +7,710 @@
     "source": "gynecological_guidelines"
   },
   {
+    "question": "Why is my period late?",
+    "answer": "Late periods can be caused by pregnancy, stress, significant weight changes, hormonal imbalances, PCOS, thyroid disorders, excessive exercise, certain medications, or approaching menopause. If you're sexually active, take a pregnancy test. If periods are consistently irregular, consult a healthcare provider.",
+    "category": "menstruation",
+    "tags": ["late period", "irregular", "pregnancy", "stress"],
+    "source": "menstrual_health_guide"
+  },
+  {
+    "question": "How much bleeding is too much during periods?",
+    "answer": "Heavy menstrual bleeding (menorrhagia) includes soaking through a pad or tampon every hour for several hours, bleeding for more than 7 days, passing clots larger than a quarter, or bleeding that interferes with daily activities. This warrants medical evaluation.",
+    "category": "menstruation",
+    "tags": ["heavy bleeding", "menorrhagia", "excessive bleeding"],
+    "source": "menstrual_disorders"
+  },
+  {
+    "question": "What are normal period symptoms?",
+    "answer": "Normal period symptoms include mild to moderate cramping, breast tenderness, mood changes, bloating, fatigue, headaches, and food cravings. These typically occur 1-2 days before and during the first few days of menstruation.",
+    "category": "menstruation",
+    "tags": ["period symptoms", "cramps", "normal", "PMS"],
+    "source": "menstrual_health"
+  },
+  {
+    "question": "Can I exercise during my period?",
+    "answer": "Yes! Exercise during your period is safe and can actually help reduce cramps and improve mood. Light to moderate exercise like walking, yoga, or swimming can be beneficial. Listen to your body and adjust intensity as needed.",
+    "category": "menstruation",
+    "tags": ["exercise", "period", "physical activity", "cramps"],
+    "source": "sports_medicine"
+  },
+  {
+    "question": "What is ovulation and when does it occur?",
+    "answer": "Ovulation is when your ovary releases an egg, typically occurring 12-14 days before your next period. Signs include changes in cervical mucus (clear, stretchy), slight increase in basal body temperature, mild pelvic pain (mittelschmerz), and increased libido.",
+    "category": "menstruation",
+    "tags": ["ovulation", "fertility", "timing", "signs"],
+    "source": "reproductive_physiology"
+  },
+  {
+    "question": "How do I track my menstrual cycle?",
+    "answer": "Track your cycle by noting the first day of each period, cycle length, flow intensity, and symptoms. Use a calendar, app, or journal. Also track ovulation signs like cervical mucus changes, basal body temperature, and ovulation pain for better understanding of your patterns.",
+    "category": "menstruation",
+    "tags": ["cycle tracking", "period tracking", "fertility awareness"],
+    "source": "menstrual_health"
+  },
+  {
+    "question": "What causes severe period cramps?",
+    "answer": "Severe period cramps (dysmenorrhea) can be primary (no underlying condition) or secondary (caused by conditions like endometriosis, fibroids, or adenomyosis). Primary dysmenorrhea is caused by prostaglandins that cause uterine contractions. Severe cramps that interfere with daily life should be evaluated by a healthcare provider.",
+    "category": "menstruation",
+    "tags": ["severe cramps", "dysmenorrhea", "period pain", "prostaglandins"],
+    "source": "pain_management"
+  },
+  {
+    "question": "Can stress affect my menstrual cycle?",
+    "answer": "Yes, stress can significantly impact your menstrual cycle by affecting hormones that control ovulation. Stress can cause delayed, missed, or irregular periods. Managing stress through exercise, adequate sleep, relaxation techniques, and healthy coping strategies can help regulate cycles.",
+    "category": "menstruation",
+    "tags": ["stress", "irregular periods", "hormones", "lifestyle"],
+    "source": "reproductive_health"
+  },
+  {
+    "question": "What is the difference between PMS and PMDD?",
+    "answer": "PMS (Premenstrual Syndrome) involves mild to moderate physical and emotional symptoms before periods. PMDD (Premenstrual Dysphoric Disorder) is a severe form affecting 3-8% of women, with symptoms that significantly interfere with daily life and relationships, requiring medical treatment.",
+    "category": "menstruation",
+    "tags": ["PMS", "PMDD", "premenstrual symptoms"],
+    "source": "menstrual_disorders"
+  },
+  {
+    "question": "Why do I get headaches during my period?",
+    "answer": "Period headaches are often caused by hormonal changes, particularly dropping estrogen levels before menstruation. These hormonal headaches can be managed with pain relievers, staying hydrated, regular sleep, stress management, and sometimes hormonal treatments. Track patterns to identify triggers.",
+    "category": "menstruation",
+    "tags": ["period headaches", "hormonal headaches", "estrogen"],
+    "source": "menstrual_symptoms"
+  },
+  {
+    "question": "What are ovarian cysts?",
+    "answer": "Ovarian cysts are fluid-filled sacs that develop on or in the ovaries. Most are functional cysts related to ovulation and resolve on their own. Symptoms may include pelvic pain, bloating, or irregular periods. Large or persistent cysts may require medical evaluation.",
+    "category": "menstruation",
+    "tags": ["ovarian cysts", "pelvic pain", "ovulation"],
+    "source": "gynecological_conditions"
+  },
+  {
+    "question": "What is endometriosis?",
+    "answer": "Endometriosis occurs when tissue similar to the uterine lining grows outside the uterus. Symptoms include severe menstrual cramps, heavy periods, pelvic pain, pain during sex, and sometimes infertility. Pain may worsen over time and requires medical management.",
+    "category": "menstruation",
+    "tags": ["endometriosis", "pelvic pain", "severe cramps"],
+    "source": "gynecological_disorders"
+  },
+  {
+    "question": "What are fibroids?",
+    "answer": "Uterine fibroids are non-cancerous growths in the uterus wall. They're very common, especially in women over 30. Symptoms may include heavy periods, pelvic pressure, frequent urination, or back pain. Many fibroids cause no symptoms and don't require treatment.",
+    "category": "menstruation",
+    "tags": ["fibroids", "heavy bleeding", "pelvic pressure"],
+    "source": "gynecological_conditions"
+  },
+  {
+    "question": "What is adenomyosis?",
+    "answer": "Adenomyosis occurs when the uterine lining grows into the muscle wall of the uterus. Symptoms include heavy, painful periods, enlarged uterus, and pelvic pain. It's most common in women in their 40s and 50s who have had children.",
+    "category": "menstruation",
+    "tags": ["adenomyosis", "heavy periods", "pelvic pain"],
+    "source": "uterine_disorders"
+  },
+  {
+    "question": "Can I use tampons on light days?",
+    "answer": "It's safe to use tampons on light days, but choose the lowest absorbency needed for your flow. Super absorbent tampons on light days can cause vaginal dryness and make removal uncomfortable. Change tampons every 4-8 hours regardless of flow to prevent TSS (Toxic Shock Syndrome).",
+    "category": "menstruation",
+    "tags": ["tampons", "light flow", "absorbency", "TSS"],
+    "source": "menstrual_products"
+  },
+  {
+    "question": "What is toxic shock syndrome?",
+    "answer": "Toxic Shock Syndrome (TSS) is a rare but serious bacterial infection associated with tampon use, especially super-absorbent tampons left in too long. Symptoms include sudden fever, vomiting, diarrhea, dizziness, and rash. Seek immediate medical attention if these symptoms occur during tampon use.",
+    "category": "menstruation",
+    "tags": ["TSS", "toxic shock syndrome", "tampons", "emergency"],
+    "source": "menstrual_safety"
+  },
+  {
+    "question": "Are menstrual cups safe?",
+    "answer": "Menstrual cups are safe when used properly. They're made of medical-grade silicone or rubber and can be worn for up to 12 hours. Benefits include cost savings, environmental friendliness, and reduced infection risk compared to tampons. Proper cleaning and sterilization are important.",
+    "category": "menstruation",
+    "tags": ["menstrual cups", "safety", "eco-friendly"],
+    "source": "alternative_products"
+  },
+  {
+    "question": "When will I get my first period?",
+    "answer": "Most girls get their first period between ages 10-15, with the average being around 12-13. Signs that your first period is approaching include breast development, growth spurts, body hair growth, vaginal discharge, and body odor. Everyone develops at their own pace.",
+    "category": "menstruation",
+    "tags": ["first period", "menarche", "puberty", "adolescence"],
+    "source": "adolescent_health"
+  },
+  {
+    "question": "What should I expect during perimenopause?",
+    "answer": "Perimenopause is the transition to menopause, typically starting in your 40s. Expect irregular periods, hot flashes, night sweats, mood changes, sleep problems, vaginal dryness, and decreased fertility. This phase can last several years before periods stop completely.",
+    "category": "menstruation",
+    "tags": ["perimenopause", "irregular periods", "hot flashes", "menopause"],
+    "source": "menopausal_transition"
+  },
+  {
     "question": "What are the early signs of pregnancy?",
-    "answer": "Early pregnancy signs include missed periods, nausea (morning sickness), breast tenderness and swelling, fatigue, frequent urination, food aversions or cravings, mood changes, light spotting (implantation bleeding), and elevated basal body temperature. However, these symptoms can vary greatly between individuals and some may not experience any early symptoms.",
+    "answer": "Early pregnancy signs include missed periods, nausea (morning sickness), breast tenderness and swelling, fatigue, frequent urination, food aversions or cravings, mood changes, light spotting (implantation bleeding), and elevated basal body temperature. However, these symptoms can vary greatly between individuals.",
     "category": "pregnancy",
     "tags": ["pregnancy", "symptoms", "early signs", "conception"],
     "source": "obstetric_care_guidelines"
   },
   {
+    "question": "When should I take a pregnancy test?",
+    "answer": "Take a pregnancy test after you've missed your period, typically 1-2 weeks after unprotected sex or when contraception may have failed. For most accurate results, test with first morning urine. Some sensitive tests can detect pregnancy as early as 6-8 days after conception.",
+    "category": "pregnancy",
+    "tags": ["pregnancy test", "timing", "accuracy", "when to test"],
+    "source": "pregnancy_testing_guide"
+  },
+  {
+    "question": "What should I avoid during pregnancy?",
+    "answer": "During pregnancy, avoid alcohol, smoking, illegal drugs, raw or undercooked meats, unpasteurized foods, high-mercury fish, excessive caffeine (limit to 200mg/day), hot tubs, contact sports, and certain medications. Always consult your healthcare provider about any medications or supplements.",
+    "category": "pregnancy",
+    "tags": ["pregnancy safety", "avoid", "alcohol", "smoking", "diet"],
+    "source": "prenatal_care_guidelines"
+  },
+  {
+    "question": "What is morning sickness and how long does it last?",
+    "answer": "Morning sickness is nausea and vomiting during pregnancy, affecting 70-80% of pregnant women. Despite its name, it can occur any time of day. It typically starts around week 6, peaks around weeks 9-10, and usually improves by week 12-14. Severe cases (hyperemesis gravidarum) need medical attention.",
+    "category": "pregnancy",
+    "tags": ["morning sickness", "nausea", "pregnancy symptoms", "hyperemesis"],
+    "source": "pregnancy_symptoms"
+  },
+  {
+    "question": "How often should I see a doctor during pregnancy?",
+    "answer": "Typical prenatal visit schedule: every 4 weeks until 28 weeks, every 2 weeks from 28-36 weeks, then weekly until delivery. High-risk pregnancies may require more frequent visits. First appointment should be scheduled as soon as you know you're pregnant.",
+    "category": "pregnancy",
+    "tags": ["prenatal care", "doctor visits", "pregnancy checkups"],
+    "source": "prenatal_care_schedule"
+  },
+  {
+    "question": "Can I get pregnant during my period?",
+    "answer": "While unlikely, pregnancy during menstruation is possible, especially with short cycles or long periods. Sperm can survive up to 5 days in the reproductive tract, and ovulation timing can be unpredictable. Always use contraception if you don't want to get pregnant.",
+    "category": "pregnancy",
+    "tags": ["pregnancy during period", "fertility", "ovulation timing"],
+    "source": "fertility_education"
+  },
+  {
+    "question": "What is implantation bleeding?",
+    "answer": "Implantation bleeding is light spotting that occurs when a fertilized egg attaches to the uterine lining, typically 6-12 days after conception. It's usually lighter and shorter than a normal period, lasting 1-2 days, and may be pink or brown in color.",
+    "category": "pregnancy",
+    "tags": ["implantation bleeding", "early pregnancy", "spotting"],
+    "source": "early_pregnancy_signs"
+  },
+  {
+    "question": "What vitamins should I take when trying to conceive?",
+    "answer": "When trying to conceive, take a prenatal vitamin with at least 400-800 mcg of folic acid to prevent neural tube defects. Also important are vitamin D, iron, calcium, and omega-3 fatty acids. Start taking folic acid at least one month before trying to conceive.",
+    "category": "pregnancy",
+    "tags": ["prenatal vitamins", "folic acid", "conception preparation"],
+    "source": "preconception_care"
+  },
+  {
+    "question": "How long should I try to get pregnant before seeing a doctor?",
+    "answer": "Generally, try for 12 months if you're under 35, or 6 months if you're 35 or older. See a doctor sooner if you have irregular periods, known fertility issues, or other health conditions. Early consultation can help identify and address potential issues.",
+    "category": "pregnancy",
+    "tags": ["fertility", "trying to conceive", "when to seek help"],
+    "source": "fertility_guidelines"
+  },
+  {
+    "question": "What are the signs of miscarriage?",
+    "answer": "Miscarriage signs include vaginal bleeding (light to heavy), cramping or abdominal pain, fluid or tissue passing from the vagina, and disappearance of pregnancy symptoms. However, light bleeding can be normal in early pregnancy. Contact your doctor with any concerns.",
+    "category": "pregnancy",
+    "tags": ["miscarriage", "pregnancy loss", "warning signs"],
+    "source": "pregnancy_complications"
+  },
+  {
+    "question": "Is it safe to have sex during pregnancy?",
+    "answer": "Sex during pregnancy is generally safe for most women with uncomplicated pregnancies. The baby is protected by the amniotic sac and strong uterine muscles. However, your doctor may recommend avoiding sex if you have certain complications like placenta previa or preterm labor risk.",
+    "category": "pregnancy",
+    "tags": ["sex during pregnancy", "pregnancy safety", "intimacy"],
+    "source": "pregnancy_guidelines"
+  },
+  {
+    "question": "What is gestational diabetes?",
+    "answer": "Gestational diabetes is high blood sugar that develops during pregnancy, usually in the second trimester. It affects about 6-9% of pregnancies and can increase risks for both mother and baby. It's typically managed with diet, exercise, and sometimes medication.",
+    "category": "pregnancy",
+    "tags": ["gestational diabetes", "pregnancy complications", "blood sugar"],
+    "source": "pregnancy_conditions"
+  },
+  {
+    "question": "What is preeclampsia?",
+    "answer": "Preeclampsia is a pregnancy complication characterized by high blood pressure and protein in urine, usually after 20 weeks. Symptoms include severe headaches, vision changes, upper abdominal pain, and swelling. It requires immediate medical attention and delivery may be necessary.",
+    "category": "pregnancy",
+    "tags": ["preeclampsia", "high blood pressure", "pregnancy complications"],
+    "source": "maternal_health"
+  },
+  {
+    "question": "How much weight should I gain during pregnancy?",
+    "answer": "Weight gain depends on pre-pregnancy BMI: underweight women should gain 28-40 lbs, normal weight 25-35 lbs, overweight 15-25 lbs, and obese 11-20 lbs. Gradual, steady weight gain is ideal, with most gain occurring in the second and third trimesters.",
+    "category": "pregnancy",
+    "tags": ["pregnancy weight gain", "BMI", "healthy pregnancy"],
+    "source": "prenatal_nutrition"
+  },
+  {
+    "question": "Can I diet while breastfeeding?",
+    "answer": "Restrictive dieting while breastfeeding isn't recommended as it can affect milk supply and quality. Focus on eating a balanced, nutrient-rich diet with about 300-500 extra calories daily. Gradual weight loss of 1-2 pounds per week is safe while maintaining milk production.",
+    "category": "pregnancy",
+    "tags": ["breastfeeding", "postpartum weight loss", "nutrition"],
+    "source": "lactation_guidelines"
+  },
+  {
+    "question": "What is postpartum depression?",
+    "answer": "Postpartum depression is a serious mood disorder affecting 10-20% of new mothers. Symptoms include persistent sadness, anxiety, irritability, fatigue, difficulty bonding with baby, and thoughts of harming oneself or baby. It requires professional treatment and support.",
+    "category": "pregnancy",
+    "tags": ["postpartum depression", "mental health", "new mothers"],
+    "source": "maternal_mental_health"
+  },
+  {
+    "question": "How long does it take for periods to return after childbirth?",
+    "answer": "For non-breastfeeding women, periods typically return 6-8 weeks postpartum. Breastfeeding mothers may not get periods for months or until weaning, due to prolactin suppressing ovulation. First periods may be heavier or lighter than normal.",
+    "category": "pregnancy",
+    "tags": ["postpartum periods", "breastfeeding", "menstrual return"],
+    "source": "postpartum_care"
+  },
+  {
+    "question": "What exercises are safe during pregnancy?",
+    "answer": "Safe pregnancy exercises include walking, swimming, prenatal yoga, stationary cycling, and low-impact aerobics. Avoid contact sports, activities with fall risk, hot yoga, and exercises lying flat on your back after the first trimester. Always consult your healthcare provider before starting new exercise routines.",
+    "category": "pregnancy",
+    "tags": ["pregnancy exercise", "safe activities", "prenatal fitness"],
+    "source": "prenatal_exercise"
+  },
+  {
+    "question": "What foods should I eat during pregnancy?",
+    "answer": "Focus on nutrient-dense foods: lean proteins, dairy products, whole grains, fruits, vegetables, and healthy fats. Ensure adequate intake of folic acid, iron, calcium, and omega-3 fatty acids. Eat small, frequent meals to manage nausea and maintain stable blood sugar.",
+    "category": "pregnancy",
+    "tags": ["pregnancy nutrition", "healthy eating", "prenatal diet"],
+    "source": "nutritional_guidelines"
+  },
+  {
+    "question": "Can I travel during pregnancy?",
+    "answer": "Travel is generally safe during pregnancy, especially in the second trimester. Best time to travel is weeks 18-24. After 36 weeks, airlines may restrict travel. Stay hydrated, move frequently, wear seatbelts properly, and consult your doctor before international travel or if you have complications.",
+    "category": "pregnancy",
+    "tags": ["pregnancy travel", "flying pregnant", "travel safety"],
+    "source": "travel_guidelines"
+  },
+  {
     "question": "What is PCOS and what are its symptoms?",
-    "answer": "PCOS (Polycystic Ovary Syndrome) is a hormonal disorder affecting women of reproductive age. Common symptoms include irregular periods or no periods, excess androgen levels causing acne and hirsutism (excessive hair growth), polycystic ovaries visible on ultrasound, weight gain or difficulty losing weight, insulin resistance, and fertility issues. PCOS affects 5-10% of women of childbearing age.",
+    "answer": "PCOS (Polycystic Ovary Syndrome) is a hormonal disorder affecting women of reproductive age. Common symptoms include irregular periods or no periods, excess androgen levels causing acne and hirsutism (excessive hair growth), polycystic ovaries visible on ultrasound, weight gain or difficulty losing weight, insulin resistance, and fertility issues.",
     "category": "pcos",
     "tags": ["PCOS", "hormonal", "symptoms", "ovaries", "androgens"],
     "source": "endocrinology_textbook"
   },
   {
+    "question": "How is PCOS diagnosed?",
+    "answer": "PCOS is diagnosed using the Rotterdam criteria: having 2 of 3 features - irregular ovulation, signs of high androgens (acne, excess hair, elevated hormone levels), or polycystic ovaries on ultrasound. Blood tests check hormone levels, glucose tolerance, and lipid profiles. Other conditions must be ruled out.",
+    "category": "pcos",
+    "tags": ["PCOS diagnosis", "Rotterdam criteria", "blood tests", "ultrasound"],
+    "source": "PCOS_diagnostic_criteria"
+  },
+  {
+    "question": "Can PCOS be cured?",
+    "answer": "PCOS cannot be cured, but it can be effectively managed. Treatment focuses on managing symptoms and reducing long-term health risks. This includes lifestyle changes (diet, exercise), medications for specific symptoms, and regular monitoring for diabetes and heart disease.",
+    "category": "pcos",
+    "tags": ["PCOS treatment", "management", "lifestyle", "medications"],
+    "source": "PCOS_management"
+  },
+  {
+    "question": "Does PCOS affect fertility?",
+    "answer": "PCOS can affect fertility by causing irregular ovulation or preventing ovulation altogether. However, many women with PCOS can still get pregnant with proper treatment. Fertility treatments like ovulation-inducing medications, lifestyle changes, and assisted reproductive technologies can help.",
+    "category": "pcos",
+    "tags": ["PCOS fertility", "ovulation", "pregnancy", "treatment"],
+    "source": "reproductive_endocrinology"
+  },
+  {
+    "question": "What is the best diet for PCOS?",
+    "answer": "A PCOS-friendly diet emphasizes low glycemic index foods, lean proteins, healthy fats, and high-fiber foods. Limit refined carbohydrates, sugary foods, and processed items. The Mediterranean diet and anti-inflammatory foods can help manage insulin resistance and reduce symptoms.",
+    "category": "pcos",
+    "tags": ["PCOS diet", "low glycemic", "insulin resistance", "nutrition"],
+    "source": "nutritional_therapy"
+  },
+  {
+    "question": "Can exercise help with PCOS?",
+    "answer": "Yes! Regular exercise is one of the most effective treatments for PCOS. It helps with weight management, improves insulin sensitivity, reduces androgen levels, and can help restore regular ovulation. Aim for 150 minutes of moderate exercise weekly, including both cardio and strength training.",
+    "category": "pcos",
+    "tags": ["PCOS exercise", "insulin sensitivity", "weight management"],
+    "source": "lifestyle_interventions"
+  },
+  {
+    "question": "What medications are used to treat PCOS?",
+    "answer": "PCOS medications include metformin for insulin resistance, birth control pills to regulate periods and reduce androgens, spironolactone for excess hair growth and acne, clomiphene or letrozole for ovulation induction, and anti-androgen medications. Treatment is tailored to individual symptoms and goals.",
+    "category": "pcos",
+    "tags": ["PCOS medications", "metformin", "birth control", "fertility drugs"],
+    "source": "pharmacological_treatment"
+  },
+  {
+    "question": "Does PCOS increase diabetes risk?",
+    "answer": "Yes, women with PCOS have a significantly higher risk of developing type 2 diabetes due to insulin resistance. Up to 70% of women with PCOS have insulin resistance. Regular screening for diabetes, lifestyle modifications, and sometimes metformin can help prevent or delay diabetes onset.",
+    "category": "pcos",
+    "tags": ["PCOS diabetes risk", "insulin resistance", "type 2 diabetes"],
+    "source": "metabolic_complications"
+  },
+  {
+    "question": "Can PCOS cause depression?",
+    "answer": "Women with PCOS are at higher risk for depression and anxiety, possibly due to hormonal imbalances, body image concerns, fertility issues, and the stress of managing a chronic condition. Mental health support, counseling, and sometimes medication can be important parts of PCOS treatment.",
+    "category": "pcos",
+    "tags": ["PCOS depression", "mental health", "anxiety", "hormones"],
+    "source": "psychological_aspects"
+  },
+  {
+    "question": "How does PCOS affect hair growth?",
+    "answer": "PCOS can cause hirsutism (excessive hair growth) in male-pattern areas like the face, chest, and back due to high androgen levels. It can also cause male-pattern baldness or hair thinning on the scalp. Treatment options include hormonal therapy, anti-androgen medications, and hair removal methods.",
+    "category": "pcos",
+    "tags": ["hirsutism", "excess hair", "hair loss", "androgens"],
+    "source": "dermatological_manifestations"
+  },
+  {
+    "question": "Can birth control help with PCOS?",
+    "answer": "Yes, hormonal birth control can help manage many PCOS symptoms by regulating periods, reducing androgen levels, decreasing acne and excess hair growth, and reducing the risk of endometrial cancer. However, it doesn't address insulin resistance and may not be suitable for women trying to conceive.",
+    "category": "pcos",
+    "tags": ["PCOS birth control", "hormonal therapy", "symptom management"],
+    "source": "hormonal_treatment"
+  },
+  {
+    "question": "What natural supplements help with PCOS?",
+    "answer": "Some supplements may help PCOS symptoms: inositol can improve insulin sensitivity and ovulation, omega-3 fatty acids may reduce inflammation, vitamin D can help with insulin resistance, and cinnamon may improve insulin sensitivity. Always consult healthcare providers before starting supplements.",
+    "category": "pcos",
+    "tags": ["PCOS supplements", "inositol", "natural treatment", "vitamin D"],
+    "source": "complementary_medicine"
+  },
+  {
+    "question": "Can PCOS symptoms improve with age?",
+    "answer": "PCOS symptoms may change with age but don't typically disappear. Fertility concerns may become less relevant after menopause, but metabolic issues like diabetes and heart disease risk remain important. Maintaining healthy lifestyle habits throughout life is crucial for long-term health.",
+    "category": "pcos",
+    "tags": ["PCOS aging", "menopause", "long-term health"],
+    "source": "lifecycle_management"
+  },
+  {
+    "question": "How often should I see a doctor for PCOS?",
+    "answer": "Women with PCOS should have regular check-ups every 6-12 months to monitor symptoms, screen for diabetes and cardiovascular risk factors, and adjust treatments as needed. More frequent visits may be needed when starting new treatments or trying to conceive.",
+    "category": "pcos",
+    "tags": ["PCOS monitoring", "regular checkups", "screening"],
+    "source": "clinical_management"
+  },
+  {
     "question": "What birth control options are available?",
-    "answer": "Birth control options include hormonal methods (birth control pills, patches, rings, injections like Depo-Provera), barrier methods (condoms, diaphragms, cervical caps), intrauterine devices (hormonal IUDs like Mirena, copper IUD), implants (Nexplanon), emergency contraception (Plan B), and permanent methods (tubal ligation, vasectomy for partners). Each method has different effectiveness rates, side effects, and considerations.",
+    "answer": "Birth control options include hormonal methods (birth control pills, patches, rings, injections), barrier methods (condoms, diaphragms, cervical caps), intrauterine devices (hormonal and copper IUDs), implants, emergency contraception, and permanent methods. Each has different effectiveness rates, side effects, and considerations.",
     "category": "birth_control",
-    "tags": ["contraception", "birth control", "family planning", "hormonal", "barrier"],
+    "tags": ["contraception", "birth control", "family planning"],
     "source": "contraceptive_guidelines"
   },
   {
-    "question": "What should I expect during my first gynecological exam?",
-    "answer": "Your first gynecological exam typically includes discussing your medical and sexual history, a physical exam checking vital signs and general health, and possibly a pelvic exam depending on your age, sexual activity, and symptoms. The doctor will explain each step, and you can ask questions or request to stop at any time. It's normal to feel nervous, and you can bring a support person if allowed.",
-    "category": "first_time_sex",
-    "tags": ["gynecological exam", "first time", "what to expect", "pelvic exam"],
-    "source": "patient_care_protocols"
-  },
-  {
-    "question": "How can I maintain good vaginal health?",
-    "answer": "Maintain vaginal health by practicing good hygiene (gentle washing with warm water and mild soap externally only), wearing breathable cotton underwear, avoiding douches and harsh soaps or scented products, staying hydrated, eating a balanced diet with probiotics, practicing safe sex, changing tampons/pads regularly, and avoiding tight-fitting clothes. See a healthcare provider for unusual discharge, odor, or discomfort.",
-    "category": "vaginal_health",
-    "tags": ["hygiene", "vaginal health", "prevention", "pH balance"],
-    "source": "gynecological_care_manual"
-  },
-  {
-    "question": "When should I be concerned about irregular periods?",
-    "answer": "Consult a healthcare provider if you experience periods lasting longer than 7 days, bleeding between periods, periods occurring more frequently than every 21 days or less frequently than every 35 days, extremely heavy bleeding (changing pad/tampon every hour), severe cramping that interferes with daily activities, or if you haven't had a period for 3+ months (and you're not pregnant or breastfeeding).",
-    "category": "menstruation",
-    "tags": ["irregular periods", "heavy bleeding", "missed periods", "concerning symptoms"],
-    "source": "menstrual_disorders_guide"
-  },
-  {
-    "question": "What is ovulation and how can I track it?",
-    "answer": "Ovulation is when your ovary releases an egg, typically occurring 12-14 days before your next period. Signs include changes in cervical mucus (clear, stretchy), slight increase in basal body temperature, mild pelvic pain (mittelschmerz), and increased libido. You can track ovulation using apps, ovulation predictor kits, basal body temperature charting, or monitoring cervical mucus changes.",
-    "category": "menstruation",
-    "tags": ["ovulation", "fertility", "tracking", "cervical mucus", "temperature"],
-    "source": "reproductive_health_textbook"
-  },
-  {
-    "question": "Is discharge normal and when should I worry?",
-    "answer": "Normal vaginal discharge varies throughout your cycle - it can be clear and stretchy around ovulation, or thicker and white at other times. Concerning signs include strong fishy or foul odor, unusual color (gray, green, or bright yellow), cottage cheese-like texture, burning or itching, or bleeding between periods. These may indicate infections requiring medical attention.",
-    "category": "vaginal_health",
-    "tags": ["vaginal discharge", "normal", "infection", "yeast infection", "BV"],
-    "source": "women_health_manual"
-  },
-  {
-    "question": "How do I know if I have a UTI?",
-    "answer": "UTI symptoms include burning sensation during urination, frequent urge to urinate with little output, cloudy or strong-smelling urine, pelvic pain, and sometimes fever or back pain. UTIs are more common in women due to shorter urethra. Drink plenty of water, urinate after sex, wipe front to back, and see a healthcare provider for proper diagnosis and antibiotics if needed.",
-    "category": "vaginal_health",
-    "tags": ["UTI", "urinary tract infection", "burning", "frequent urination"],
-    "source": "urological_care_guidelines"
+    "question": "How effective is the birth control pill?",
+    "answer": "When used perfectly, birth control pills are over 99% effective. With typical use (accounting for missed pills), they're about 91% effective. Effectiveness can be reduced by missing pills, certain medications, vomiting, or diarrhea. Taking pills at the same time daily maximizes effectiveness.",
+    "category": "birth_control",
+    "tags": ["birth control pill", "effectiveness", "missed pills"],
+    "source": "contraceptive_efficacy"
   },
   {
     "question": "What are the side effects of hormonal birth control?",
-    "answer": "Common side effects of hormonal birth control include nausea, breast tenderness, mood changes, weight fluctuation, irregular bleeding or spotting, headaches, and decreased libido. Serious but rare risks include blood clots, stroke, and heart attack (higher risk with smoking and age 35+). Most side effects improve after 2-3 months as your body adjusts.",
+    "answer": "Common side effects include nausea, breast tenderness, mood changes, weight fluctuation, irregular bleeding, headaches, and decreased libido. Serious but rare risks include blood clots, stroke, and heart attack (higher risk with smoking and age 35+). Most side effects improve after 2-3 months.",
     "category": "birth_control",
-    "tags": ["hormonal birth control", "side effects", "risks", "blood clots"],
-    "source": "contraceptive_safety_data"
+    "tags": ["birth control side effects", "hormonal contraception", "risks"],
+    "source": "contraceptive_safety"
   },
   {
-    "question": "How can I manage severe period cramps?",
-    "answer": "Manage period cramps with over-the-counter pain relievers (ibuprofen, naproxen), heat therapy (heating pad, warm bath), gentle exercise, staying hydrated, and getting adequate rest. Some find relief with magnesium supplements, yoga, or dietary changes. If cramps are severe enough to interfere with daily activities, consult a healthcare provider as this may indicate conditions like endometriosis.",
-    "category": "menstruation",
-    "tags": ["period cramps", "dysmenorrhea", "pain management", "endometriosis"],
-    "source": "pain_management_protocols"
+    "question": "What is emergency contraception?",
+    "answer": "Emergency contraception (Plan B, ella, copper IUD) can prevent pregnancy after unprotected sex or contraceptive failure. Plan B works best within 72 hours, ella within 120 hours, and copper IUD within 120 hours (and provides ongoing contraception). The sooner taken, the more effective.",
+    "category": "birth_control",
+    "tags": ["emergency contraception", "Plan B", "morning after pill"],
+    "source": "emergency_contraception_guide"
   },
   {
-    "question": "What should I know about my first Pap smear?",
-    "answer": "Pap smears screen for cervical cancer and typically start at age 21 or when becoming sexually active (whichever is later). The procedure involves collecting cells from your cervix using a small brush or spatula. It may cause mild discomfort but shouldn't be painful. Schedule between periods, avoid douching or intercourse 24 hours before, and discuss any concerns with your provider.",
+    "question": "What is an IUD and how does it work?",
+    "answer": "An IUD (intrauterine device) is a small, T-shaped device inserted into the uterus for long-term contraception. Hormonal IUDs release progestin to prevent pregnancy, while copper IUDs create an environment toxic to sperm. They're over 99% effective and last 3-12 years depending on type.",
+    "category": "birth_control",
+    "tags": ["IUD", "long-term contraception", "hormonal", "copper"],
+    "source": "contraceptive_devices"
+  },
+  {
+    "question": "Does the birth control implant hurt?",
+    "answer": "Insertion involves local anesthesia, so you'll feel pressure but minimal pain. Some soreness, bruising, or swelling at the insertion site is normal for a few days. The implant provides 99% effective contraception for 3 years and can be removed anytime.",
+    "category": "birth_control",
+    "tags": ["birth control implant", "insertion", "pain", "Nexplanon"],
+    "source": "contraceptive_implants"
+  },
+  {
+    "question": "Can birth control cause mood changes?",
+    "answer": "Some women experience mood changes with hormonal contraceptives, including depression, anxiety, or mood swings. However, others report mood improvement. If you experience significant mood changes, discuss alternatives with your healthcare provider.",
+    "category": "birth_control",
+    "tags": ["birth control mood effects", "hormonal contraception", "depression"],
+    "source": "contraceptive_side_effects"
+  },
+  {
+    "question": "How effective are condoms?",
+    "answer": "Male condoms are 85% effective with typical use, 98% with perfect use. Female condoms are 79% effective with typical use, 95% with perfect use. Effectiveness increases when combined with other methods. Condoms also protect against STIs, making them important for sexual health.",
+    "category": "birth_control",
+    "tags": ["condoms", "effectiveness", "STI protection"],
+    "source": "barrier_contraception"
+  },
+  {
+    "question": "What is the fertility awareness method?",
+    "answer": "Fertility awareness involves tracking menstrual cycles, basal body temperature, and cervical mucus to identify fertile days. When used correctly, it's 76-88% effective for pregnancy prevention. It requires commitment to daily tracking and abstinence or barrier methods during fertile periods.",
+    "category": "birth_control",
+    "tags": ["fertility awareness", "natural family planning", "cycle tracking"],
+    "source": "natural_contraception"
+  },
+  {
+    "question": "Can I skip my period with birth control pills?",
+    "answer": "Yes, you can safely skip periods by taking active pills continuously without the placebo week. This is medically safe and can help with heavy periods, endometriosis, or convenience. Some women may experience breakthrough bleeding initially.",
+    "category": "birth_control",
+    "tags": ["skipping periods", "continuous birth control", "menstrual suppression"],
+    "source": "contraceptive_management"
+  },
+  {
+    "question": "What should I do if I miss a birth control pill?",
+    "answer": "If you miss one pill, take it as soon as you remember and take the next pill at the regular time. If you miss two or more pills, take the most recent missed pill, use backup contraception for 7 days, and consider emergency contraception if you've had unprotected sex.",
+    "category": "birth_control",
+    "tags": ["missed pills", "birth control effectiveness", "backup contraception"],
+    "source": "pill_instructions"
+  },
+  {
+    "question": "Can I get pregnant immediately after stopping birth control?",
+    "answer": "Fertility typically returns quickly after stopping most forms of birth control. With pills, patches, and rings, ovulation usually resumes within 1-3 months. The injection (Depo-Provera) may delay fertility return for 6-18 months. IUDs allow immediate fertility return after removal.",
+    "category": "birth_control",
+    "tags": ["stopping birth control", "fertility return", "conception"],
+    "source": "contraceptive_discontinuation"
+  },
+  {
+    "question": "What is the birth control shot?",
+    "answer": "The birth control shot (Depo-Provera) is an injection of synthetic progestin given every 3 months. It's 94% effective with typical use, 99% with perfect use. Side effects may include weight gain, irregular bleeding, bone density changes, and delayed fertility return after stopping.",
+    "category": "birth_control",
+    "tags": ["Depo shot", "birth control injection", "progestin"],
+    "source": "injectable_contraception"
+  },
+  {
+    "question": "How do birth control patches work?",
+    "answer": "Birth control patches deliver hormones (estrogen and progestin) through the skin to prevent ovulation. Apply a new patch weekly for 3 weeks, then have a patch-free week for your period. They're as effective as birth control pills but may be less effective in women over 198 pounds.",
+    "category": "birth_control",
+    "tags": ["birth control patch", "hormonal", "transdermal"],
+    "source": "patch_contraception"
+  },
+  {
+    "question": "What is the vaginal ring?",
+    "answer": "The vaginal ring (NuvaRing) is a flexible ring inserted into the vagina that releases hormones to prevent pregnancy. Leave it in for 3 weeks, remove for 1 week for your period, then insert a new ring. It's 91% effective with typical use, over 99% with perfect use.",
+    "category": "birth_control",
+    "tags": ["vaginal ring", "NuvaRing", "hormonal contraception"],
+    "source": "ring_contraception"
+  },
+  {
+    "question": "When can I start birth control after having a baby?",
+    "answer": "Non-breastfeeding women can start most birth control methods 3 weeks postpartum. Breastfeeding women should avoid estrogen-containing methods for 6 weeks, but can use progestin-only methods immediately. IUDs can be inserted immediately postpartum or at 4-6 weeks.",
+    "category": "birth_control",
+    "tags": ["postpartum contraception", "breastfeeding", "timing"],
+    "source": "postpartum_family_planning"
+  },
+  {
+    "question": "What should I expect during my first gynecological exam?",
+    "answer": "Your first gynecological exam typically includes discussing your medical and sexual history, a physical exam, and possibly a pelvic exam depending on your age and symptoms. The doctor will explain each step, and you can ask questions or request to stop at any time. It's normal to feel nervous.",
     "category": "first_time_sex",
-    "tags": ["Pap smear", "cervical cancer screening", "first time", "what to expect"],
-    "source": "cancer_screening_guidelines"
+    "tags": ["gynecological exam", "first time", "what to expect"],
+    "source": "patient_care_protocols"
   },
   {
-    "question": "How do I talk to my partner about safe sex?",
-    "answer": "Start conversations about safe sex in a non-sexual setting when you both feel comfortable. Discuss STI testing history, birth control preferences, boundaries, and consent. It's important to be honest about your experience level and ask questions. Remember that practicing safe sex shows care for both of your health and well-being. Consider getting tested together before becoming sexually active.",
+    "question": "When should I start seeing a gynecologist?",
+    "answer": "The American College of Obstetricians and Gynecologists recommends the first gynecologic visit between ages 13-15 for health education and guidance, with pelvic exams typically starting at age 21 or when sexually active. Earlier visits may be needed for menstrual problems or other concerns.",
     "category": "first_time_sex",
-    "tags": ["safe sex", "communication", "STI testing", "consent", "relationships"],
+    "tags": ["first gynecologist visit", "age", "when to start"],
+    "source": "adolescent_gynecology"
+  },
+  {
+    "question": "Does the first time having sex hurt?",
+    "answer": "The first time may involve some discomfort due to nervousness, insufficient lubrication, or stretching of the hymen. However, it shouldn't be extremely painful. Using lubrication, going slowly, communicating with your partner, and being relaxed can help minimize discomfort.",
+    "category": "first_time_sex",
+    "tags": ["first time sex", "pain", "hymen", "lubrication"],
     "source": "sexual_health_education"
   },
   {
-    "question": "What is endometriosis and what are the symptoms?",
-    "answer": "Endometriosis occurs when tissue similar to the uterine lining grows outside the uterus. Symptoms include severe menstrual cramps, heavy periods, pelvic pain, pain during sex, painful bowel movements or urination during periods, and sometimes infertility. Pain may worsen over time. Diagnosis often requires laparoscopy, and treatment options include pain management, hormonal therapy, or surgery.",
-    "category": "menstruation",
-    "tags": ["endometriosis", "pelvic pain", "severe cramps", "chronic pain"],
-    "source": "gynecological_disorders_manual"
+    "question": "How can I prepare for my first time having sex?",
+    "answer": "Preparation includes emotional readiness, communication with your partner about boundaries and consent, having protection available (condoms, contraception), ensuring privacy, and having lubrication if needed. Consider STI testing for both partners if not virgins.",
+    "category": "first_time_sex",
+    "tags": ["first time preparation", "consent", "protection", "communication"],
+    "source": "sexual_education"
   },
   {
-    "question": "How do I choose the right tampon or pad?",
-    "answer": "Choose tampons/pads based on your flow (light, regular, heavy, super), comfort, and lifestyle. Start with regular absorbency and adjust as needed. Tampons offer more freedom for activities but require proper insertion and timely changing (every 4-8 hours). Pads are external and may be more comfortable initially. Menstrual cups and period underwear are eco-friendly alternatives to consider.",
-    "category": "menstruation",
-    "tags": ["tampons", "pads", "menstrual products", "flow", "comfort"],
-    "source": "menstrual_care_guide"
+    "question": "What are STIs and how can I prevent them?",
+    "answer": "STIs (sexually transmitted infections) are infections spread through sexual contact. Prevention includes using condoms consistently, limiting sexual partners, getting regular STI testing, communicating with partners about sexual health, and considering pre-exposure prophylaxis (PrEP) for HIV prevention when appropriate.",
+    "category": "first_time_sex",
+    "tags": ["STI prevention", "safe sex", "condoms", "testing"],
+    "source": "sexual_health_guidelines"
   },
   {
-    "question": "What happens during pregnancy testing?",
-    "answer": "Pregnancy tests detect hCG hormone in urine or blood. Home urine tests are most accurate when taken after a missed period, preferably with morning urine. Blood tests at a doctor's office can detect pregnancy earlier and are more sensitive. False negatives can occur if testing too early, while false positives are rare but can happen with certain medications or medical conditions.",
-    "category": "pregnancy",
-    "tags": ["pregnancy test", "hCG", "accuracy", "timing", "false results"],
-    "source": "pregnancy_detection_protocols"
+    "question": "How often should I get tested for STIs?",
+    "answer": "Sexually active women under 25 should be tested annually for chlamydia and gonorrhea. Women 25+ should be tested if they have risk factors. HIV testing is recommended at least once for adults, more frequently for higher-risk individuals. Discuss testing frequency with your healthcare provider.",
+    "category": "first_time_sex",
+    "tags": ["STI testing", "frequency", "screening", "sexual health"],
+    "source": "STI_screening_guidelines"
   },
   {
-    "question": "How can I manage PCOS symptoms naturally?",
-    "answer": "Natural PCOS management includes maintaining a healthy weight through balanced diet and regular exercise, reducing refined carbohydrates and sugar intake, managing stress through yoga or meditation, getting adequate sleep, and considering supplements like inositol, vitamin D, or omega-3s (consult healthcare provider first). Some find spearmint tea helpful for reducing androgens. Regular monitoring by healthcare providers is important.",
-    "category": "pcos",
-    "tags": ["PCOS management", "natural remedies", "diet", "exercise", "supplements"],
-    "source": "integrative_gynecology_guide"
+    "question": "What is consent and why is it important?",
+    "answer": "Consent is freely given, informed agreement to engage in sexual activity. It must be ongoing, can be withdrawn at any time, and cannot be given when someone is intoxicated, unconscious, or coerced. Clear communication about boundaries and desires is essential for healthy sexual relationships.",
+    "category": "first_time_sex",
+    "tags": ["consent", "sexual communication", "boundaries", "healthy relationships"],
+    "source": "sexual_consent_education"
   },
   {
-    "question": "What are the warning signs during pregnancy?",
-    "answer": "Contact your healthcare provider immediately for severe abdominal pain, heavy bleeding, severe headaches, vision changes, persistent vomiting, fever over 101°F, decreased fetal movement (after 28 weeks), signs of preterm labor (regular contractions before 37 weeks), or severe swelling in face/hands. Trust your instincts - if something feels wrong, seek medical attention.",
-    "category": "pregnancy",
-    "tags": ["pregnancy warning signs", "complications", "emergency", "prenatal care"],
-    "source": "obstetric_emergency_protocols"
+    "question": "How do I talk to my partner about STI testing?",
+    "answer": "Approach the conversation openly and non-judgmentally. Suggest getting tested together as part of caring for each other's health. Share your own testing history and ask about theirs. Frame it as a responsible step that shows maturity and concern for both of your wellbeing.",
+    "category": "first_time_sex",
+    "tags": ["STI discussion", "communication", "relationship health"],
+    "source": "partner_communication"
+  },
+  {
+    "question": "What should I know about the hymen?",
+    "answer": "The hymen is a thin membrane that partially covers the vaginal opening. It varies greatly in shape and thickness among individuals. It can be stretched or torn by many activities including exercise, tampon use, or medical exams - not just sexual activity. An intact hymen is not an indicator of virginity.",
+    "category": "first_time_sex",
+    "tags": ["hymen", "virginity myths", "anatomy", "education"],
+    "source": "anatomical_education"
+  },
+  {
+    "question": "How do I choose the right contraception for my first time?",
+    "answer": "Consider factors like effectiveness, ease of use, side effects, and STI protection. For first-time sex, condoms are recommended for STI protection plus another method for pregnancy prevention. Discuss options with a healthcare provider to find what works best for your lifestyle and health needs.",
+    "category": "first_time_sex",
+    "tags": ["contraception choice", "first time protection", "dual method"],
+    "source": "contraceptive_counseling"
+  },
+  {
+    "question": "What is normal sexual desire?",
+    "answer": "Sexual desire varies greatly among individuals and can change throughout life due to factors like age, health, stress, relationships, and hormones. There's no 'normal' level of desire. What matters is that you're comfortable with your level of interest and can communicate with partners about your needs.",
+    "category": "first_time_sex",
+    "tags": ["sexual desire", "libido", "normal variation", "individual differences"],
+    "source": "human_sexuality"
+  },
+  {
+    "question": "How can I feel more comfortable with my body?",
+    "answer": "Body confidence comes from self-acceptance and communication. Remember that bodies come in all shapes and sizes, and your partner chose to be intimate with you. Focus on pleasure and connection rather than appearance. Open communication about preferences and boundaries can increase comfort.",
+    "category": "first_time_sex",
+    "tags": ["body confidence", "self-acceptance", "sexual confidence"],
+    "source": "sexual_wellbeing"
+  },
+  {
+    "question": "What should I do if sex is painful?",
+    "answer": "If sex is consistently painful, see a healthcare provider. Causes can include insufficient lubrication, infections, endometriosis, vaginismus, or other conditions. Don't ignore pain - it's not something you should 'get used to.' Treatment options are available for most causes of painful sex.",
+    "category": "first_time_sex",
+    "tags": ["painful sex", "dyspareunia", "vaginismus", "sexual pain"],
+    "source": "sexual_pain_disorders"
+  },
+  {
+    "question": "How can I maintain good vaginal health?",
+    "answer": "Maintain vaginal health by practicing good hygiene (gentle washing with water), wearing breathable cotton underwear, avoiding douches and harsh soaps, staying hydrated, eating a balanced diet with probiotics, practicing safe sex, and changing tampons/pads regularly.",
+    "category": "vaginal_health",
+    "tags": ["hygiene", "vaginal health", "prevention"],
+    "source": "gynecological_care_manual"
+  },
+  {
+    "question": "What is normal vaginal discharge?",
+    "answer": "Normal discharge varies throughout your cycle - it can be clear and stretchy around ovulation, or thicker and white at other times. It's typically odorless or has a mild, non-offensive smell. Normal discharge helps keep the vagina clean and healthy by maintaining proper pH balance.",
+    "category": "vaginal_health",
+    "tags": ["vaginal discharge", "normal", "cycle changes"],
+    "source": "vaginal_health_guide"
+  },
+  {
+    "question": "When should I be concerned about vaginal discharge?",
+    "answer": "Concerning signs include strong fishy or foul odor, unusual color (gray, green, or bright yellow), cottage cheese-like texture, burning or itching, bleeding between periods, or discharge accompanied by pelvic pain. These may indicate infections requiring medical attention.",
+    "category": "vaginal_health",
+    "tags": ["abnormal discharge", "infection", "warning signs"],
+    "source": "vaginal_infections"
+  },
+  {
+    "question": "What is a yeast infection?",
+    "answer": "A yeast infection is an overgrowth of Candida fungus in the vagina. Symptoms include thick, white, cottage cheese-like discharge, intense itching, burning during urination or sex, and vulvar redness or swelling. It's common and treatable with antifungal medications.",
+    "category": "vaginal_health",
+    "tags": ["yeast infection", "candida", "symptoms", "treatment"],
+    "source": "fungal_infections"
+  },
+  {
+    "question": "How do I know if I have a UTI?",
+    "answer": "UTI symptoms include burning sensation during urination, frequent urge to urinate with little output, cloudy or strong-smelling urine, pelvic pain, and sometimes fever or back pain. UTIs are more common in women due to shorter urethra and require antibiotic treatment.",
+    "category": "vaginal_health",
+    "tags": ["UTI", "urinary tract infection", "symptoms", "treatment"],
+    "source": "urological_care"
+  },
+  {
+    "question": "What is bacterial vaginosis?",
+    "answer": "Bacterial vaginosis (BV) is an imbalance of bacteria in the vagina. Symptoms include thin, gray or white discharge with a strong fishy odor, especially after sex. BV is the most common vaginal infection in women of reproductive age and requires antibiotic treatment.",
+    "category": "vaginal_health",
+    "tags": ["bacterial vaginosis", "BV", "fishy odor", "antibiotics"],
+    "source": "bacterial_infections"
+  },
+  {
+    "question": "Should I douche?",
+    "answer": "No, douching is not recommended. The vagina is self-cleaning and douching can disrupt the natural balance of bacteria, leading to infections, pelvic inflammatory disease, and other complications. Simple external washing with water is sufficient for cleanliness.",
+    "category": "vaginal_health",
+    "tags": ["douching", "vaginal hygiene", "pH balance"],
+    "source": "gynecological_guidelines"
+  },
+  {
+    "question": "What is the HPV vaccine and who should get it?",
+    "answer": "The HPV vaccine protects against human papillomavirus, which causes cervical and other cancers. It's recommended for girls and boys starting at age 11-12, with catch-up vaccination through age 26. The vaccine is most effective when given before sexual activity begins.",
+    "category": "vaginal_health",
+    "tags": ["HPV vaccine", "cervical cancer", "prevention"],
+    "source": "immunization_guidelines"
+  },
+  {
+    "question": "What is a Pap smear and when should I get one?",
+    "answer": "A Pap smear screens for cervical cancer by collecting cells from the cervix. Guidelines recommend starting at age 21, then every 3 years until age 29. From ages 30-65, Pap smears every 3 years or Pap plus HPV testing every 5 years.",
+    "category": "vaginal_health",
+    "tags": ["Pap smear", "cervical cancer screening", "prevention"],
+    "source": "cancer_screening"
+  },
+  {
+    "question": "What causes vaginal dryness?",
+    "answer": "Vaginal dryness can be caused by low estrogen levels (menopause, breastfeeding, certain medications), stress, insufficient arousal, douching, certain soaps or chemicals, or medical conditions. Treatment options include lubricants, moisturizers, and hormone therapy when appropriate.",
+    "category": "vaginal_health",
+    "tags": ["vaginal dryness", "estrogen", "menopause", "lubrication"],
+    "source": "sexual_health"
   },
   {
     "question": "How do I prevent yeast infections?",
-    "answer": "Prevent yeast infections by keeping the genital area clean and dry, wearing cotton underwear, avoiding tight-fitting clothes, changing out of wet swimwear promptly, limiting antibiotic use when possible, avoiding douches and scented products, eating a balanced diet with probiotics, and managing diabetes if applicable. Some women are more prone to infections and may need ongoing prevention strategies.",
+    "answer": "Prevent yeast infections by keeping the genital area clean and dry, wearing cotton underwear, avoiding tight-fitting clothes, changing out of wet swimwear promptly, limiting antibiotic use when possible, avoiding douches and scented products, eating a balanced diet with probiotics, and managing diabetes if applicable.",
     "category": "vaginal_health",
-    "tags": ["yeast infection", "prevention", "candida", "probiotics", "hygiene"],
-    "source": "infectious_disease_prevention"
+    "tags": ["yeast infection prevention", "hygiene", "probiotics"],
+    "source": "infection_prevention"
+  },
+  {
+    "question": "What is pelvic inflammatory disease?",
+    "answer": "Pelvic inflammatory disease (PID) is an infection of the female reproductive organs, often caused by untreated STIs like chlamydia or gonorrhea. Symptoms include pelvic pain, fever, unusual discharge, painful urination, and irregular bleeding. PID requires immediate antibiotic treatment to prevent serious complications.",
+    "category": "vaginal_health",
+    "tags": ["PID", "pelvic inflammatory disease", "STI complications"],
+    "source": "reproductive_infections"
+  },
+  {
+    "question": "Why does my vagina smell different sometimes?",
+    "answer": "Vaginal odor can change due to menstrual cycle phases, diet, hygiene, sexual activity, or clothing choices. Normal scents are mild and not offensive. Strong, fishy, or foul odors may indicate infections. Sweet or fruity odors could suggest diabetes. Consult a healthcare provider for persistent unusual odors.",
+    "category": "vaginal_health",
+    "tags": ["vaginal odor", "normal smell", "infection signs"],
+    "source": "vaginal_health_assessment"
+  },
+  {
+    "question": "Can stress affect vaginal health?",
+    "answer": "Yes, stress can affect vaginal health by disrupting hormone levels, weakening the immune system, and altering the vaginal microbiome. This can lead to increased susceptibility to infections, changes in discharge, or vaginal dryness. Stress management techniques can help maintain overall reproductive health.",
+    "category": "vaginal_health",
+    "tags": ["stress", "vaginal health", "immune system", "hormones"],
+    "source": "stress_health_connection"
+  },
+  {
+    "question": "What is vulvodynia?",
+    "answer": "Vulvodynia is chronic vulvar pain without a clear cause. It can feel like burning, stinging, or rawness in the vulvar area. The pain may be constant or triggered by touch. Treatment options include topical medications, oral medications, physical therapy, and lifestyle modifications.",
+    "category": "vaginal_health",
+    "tags": ["vulvodynia", "chronic pain", "vulvar pain"],
+    "source": "chronic_pain_conditions"
+  },
+  {
+    "question": "How often should I change my underwear?",
+    "answer": "Change underwear daily, or more frequently if you're very active, have heavy discharge, or feel uncomfortable. Choose breathable, cotton underwear when possible. Go without underwear at night to allow air circulation. During menstruation, you may want to change more frequently for comfort and hygiene.",
+    "category": "vaginal_health",
+    "tags": ["underwear hygiene", "daily habits", "cotton underwear"],
+    "source": "personal_hygiene"
+  },
+  {
+    "question": "Is it normal to have vaginal itching?",
+    "answer": "Occasional mild itching can be normal, especially due to hormonal changes, new products, or tight clothing. However, persistent, severe itching often indicates an infection (yeast, bacterial, or STI), allergic reaction, or skin condition. See a healthcare provider if itching persists or is accompanied by other symptoms.",
+    "category": "vaginal_health",
+    "tags": ["vaginal itching", "normal vs concerning", "infections"],
+    "source": "symptom_assessment"
+  },
+  {
+    "question": "What should I know about menopause?",
+    "answer": "Menopause is the permanent end of menstruation, typically occurring around age 51. Symptoms include hot flashes, night sweats, vaginal dryness, mood changes, and sleep problems. The transition (perimenopause) can last several years. Hormone therapy and lifestyle changes can help manage symptoms.",
+    "category": "menstruation",
+    "tags": ["menopause", "hot flashes", "hormone changes", "aging"],
+    "source": "menopausal_health"
+  },
+  {
+    "question": "How can I manage hot flashes?",
+    "answer": "Manage hot flashes through lifestyle changes like dressing in layers, keeping rooms cool, avoiding triggers (spicy foods, alcohol, caffeine), staying hydrated, regular exercise, and stress reduction. Medical options include hormone therapy, antidepressants, or other medications. Track triggers to identify patterns.",
+    "category": "menstruation",
+    "tags": ["hot flashes", "menopause symptoms", "lifestyle management"],
+    "source": "symptom_management"
   }
 ]
