@@ -1,8 +1,8 @@
 // frontend/src/components/ChatInterface.jsx
 import {
-    ArrowLeft,
-    Loader2,
-    Send
+  ArrowLeft,
+  Loader2,
+  Send
 } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import ChatMessage from './ChatMessage';
@@ -44,7 +44,7 @@ const ChatInterface = ({
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8000/chat', {
+      const response = await fetch('https://askhercare.up.railway.app/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -101,7 +101,7 @@ const ChatInterface = ({
     if (!message) return;
 
     try {
-      const response = await fetch('http://localhost:8000/simplify', {
+      const response = await fetch('https://askhercare.up.railway.app/simplify', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -123,7 +123,7 @@ const ChatInterface = ({
 
   const handleExplainTerm = async (term) => {
     try {
-      const response = await fetch('http://localhost:8000/explain-term', {
+      const response = await fetch('https://askhercare.up.railway.app/explain-term', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
